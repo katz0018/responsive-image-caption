@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font: normal 100%/1.3 Georgia, serif;
+  font: normal 100%/1.5 Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -44,15 +44,6 @@ h2 {
 
 p {
   margin-bottom: 0;
-}
-
-@media only screen and (min-width: 25em ) {
-
-  html {
-     font-size: 100%;
-     line-height: 1.3;
-   }
-
 }
 
 @media only screen and (min-width: 38em ) {
@@ -91,13 +82,7 @@ p {
     }
 
     figcaption {
-      position: absolute;
-      border-radius: 1em;
       width: 45%;
-      color: #ffff;
-      background-color: rgba(0, 0, 0, .3);
-      bottom: 1em;
-      right: 1em;
     }
 }
 
@@ -106,6 +91,11 @@ p {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  figcaption {
+    width: 30%;
+    border-radius: .5em;
   }
 
 }
