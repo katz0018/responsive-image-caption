@@ -62,6 +62,25 @@ p {
     line-height: 1.4;
   }
 
+  img {
+    min-height: 16em;
+    overflow: hidden;
+  }
+
+  figure {
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    border-radius: 1em;
+    width: 60%;
+    color: #ffff;
+    background-color: rgba(0, 0, 0, .3);
+    bottom: 1em;
+    right: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 60em ) {
@@ -71,6 +90,15 @@ p {
       line-height: 1.5;
     }
 
+    figcaption {
+      position: absolute;
+      border-radius: 1em;
+      width: 45%;
+      color: #ffff;
+      background-color: rgba(0, 0, 0, .3);
+      bottom: 1em;
+      right: 1em;
+    }
 }
 
 @media only screen and (min-width: 90em ) {
