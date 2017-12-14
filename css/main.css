@@ -27,14 +27,14 @@ figure {
   margin: 0;
 }
 
-img {
+.img-flex {
   width: 100%;
   display: block;
 }
 
 figcaption {
   background-color: #e2e2e2;
-  padding: 1.5em;
+  padding: 1em;
 }
 
 h2 {
@@ -44,6 +44,8 @@ h2 {
 
 p {
   margin-bottom: 0;
+  line-height: 1.3rem;
+  width: 100%;
 }
 
 @media only screen and (min-width: 38em ) {
@@ -53,7 +55,7 @@ p {
     line-height: 1.4;
   }
 
-  img {
+  .img-flex {
     min-height: 16em;
     overflow: hidden;
   }
@@ -66,7 +68,7 @@ p {
     position: absolute;
     border-radius: 1em;
     width: 60%;
-    color: #ffff;
+    color: #fff;
     background-color: rgba(0, 0, 0, .3);
     bottom: 1em;
     right: 1em;
